@@ -1,6 +1,6 @@
 from typing import Any
 
-from utils.logger import Logger
+from presentation.logger import Logger
 
 from .alias_generators import dict_to_camel
 from .error import BaseError
