@@ -11,7 +11,7 @@ requirements_list = [
 
 LIB_NAME: str = "presentation-python"
 
-env_version = getenv("VERSION")
+env_version = getenv("VERSION", "1.0.0")
 if env_version is None:
     raise RuntimeError("Environment variable 'VERSION' must be declared")
 VERSION = env_version.split(".")
